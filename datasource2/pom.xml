@@ -3,7 +3,7 @@
 
   <groupId>com.kip</groupId>
   <artifactId>datasource2</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>jar</packaging>
 
   <name>datasource2</name>
