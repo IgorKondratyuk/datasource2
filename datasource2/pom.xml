@@ -20,7 +20,7 @@
 	   <!-- <developerConnection>scm:git:https://github.com/IgorKondratyuk/datasource.git</developerConnection> -->
 	  <!--<tag>HEAD</tag>-->
     <developerConnection>scm:git:https://github.com/IgorKondratyuk/datasource2.git</developerConnection>
-     <tag>v${releaseVersion}</tag>
+     <tag>${version}</tag>
   </scm>
 
 	<repositories>
@@ -145,7 +145,7 @@
 		   <artifactId>maven-release-plugin</artifactId>
 		   <version>2.5.3</version>
 		   <configuration>
-		      <tagNameFormat>v${releaseVersion}</tagNameFormat>
+		      <tagNameFormat>${version}</tagNameFormat>
 		      <autoVersionSubmodules>true</autoVersionSubmodules>
 		      <releaseProfiles>releases</releaseProfiles>
 		   </configuration>
